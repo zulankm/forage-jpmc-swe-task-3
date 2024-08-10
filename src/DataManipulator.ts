@@ -1,6 +1,7 @@
 import { ServerRespond } from './DataStreamer';
 
 export interface Row {
+  
   stock: string,
   top_ask_price: number,
   timestamp: Date,
